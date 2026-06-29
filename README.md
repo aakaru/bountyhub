@@ -18,7 +18,7 @@
 
 ---
 
-## 🔮 System Architecture
+## System Architecture
 
 The following diagram illustrates how the GitHub API, Go backend, SQLite cache, SMTP server, and React client interact:
 
@@ -60,7 +60,7 @@ graph TD
 
 ---
 
-## ⚡ Key Features
+## Key Features
 
 *   **Automated Bounty Parsing:** Scans issue titles and descriptions using adaptive RegEx patterns to extract values like `$500 USDC`, `1.5 ETH`, or `250 USD`.
 *   **Intelligent Classification:** Auto-tags issue languages (`Go`, `Rust`, `TypeScript`, `Python`) and frameworks based on label markers and text parsing.
@@ -70,7 +70,7 @@ graph TD
 
 ---
 
-## 📂 Source Code Map
+## Source Code Map
 
 You can inspect the codebase using the following local links:
 
@@ -85,7 +85,7 @@ You can inspect the codebase using the following local links:
 
 ---
 
-## 🛠️ Setup & Installation
+## Setup & Installation
 
 ### 1. Prerequisites
 *   **Go** 1.20 or newer
@@ -122,7 +122,7 @@ Open [http://localhost:5173](http://localhost:5173) in your browser to enter the
 
 ---
 
-## 🧪 Tech Stack
+## Tech Stack
 
 *   **Backend:** Go, [Chi](https://github.com/go-chi/chi), [GORM](https://gorm.io/), SQLite
 *   **Frontend:** React, [Vite](https://vitejs.dev/), [GSAP](https://gsap.com/), [Lenis](https://lenis.darkroom.engineering/), [TanStack Query](https://tanstack.com/query), [Lucide React](https://lucide.dev/)
